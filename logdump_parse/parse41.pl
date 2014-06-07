@@ -4,6 +4,36 @@ use Win32::API;
 
 
 #
+# prepare file
+#
+
+open (RD, "debug1.log");
+open (WR, ">debug1send.log");
+
+while(<RD>){ chomp;
+    $line = $_;
+
+    if ($_=~ /^[^ ]+ T#1456 /) {
+        if ($_=~ /Logger AES dump from/) {
+            print WR "\n\n";
+        };
+        print WR $line."\n";
+    };
+
+    if ($_ eq "") {
+        print WR $line."\n";
+    };
+};
+
+close(RD);
+close(WR);
+
+
+#
+# parsing file
+#
+
+#
 # load dll with 41 decoding functions
 #
 $fun = Win32::API->new('parse41.dll','int _sayhello@8(char *in, char *out)') or die $^E;
