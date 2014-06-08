@@ -4,6 +4,18 @@ use Win32::API;
 
 
 #
+# START CONFIG
+#
+
+$threadid = 3008;
+
+#
+# END CONFIG
+#
+
+
+
+#
 # prepare file
 #
 
@@ -13,7 +25,7 @@ open (WR, ">debug1send.log");
 while(<RD>){ chomp;
     $line = $_;
 
-    if ($_=~ /^[^ ]+ T#1456 /) {
+    if ($_=~ /^[^ ]+ T#$threadid /) {
         if ($_=~ /Logger AES dump from/) {
             print WR "\n\n";
         };

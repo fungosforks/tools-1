@@ -1,5 +1,5 @@
 @echo on
 
-perl parse41.pl > _log.txt
+perl parse41.pl > log.txt
 
 
