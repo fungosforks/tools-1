@@ -7,7 +7,8 @@
 
 #define MAX_MEM		4096
 
-int OUTPUT_LEN;
+extern int OUTPUT_LEN;
+
 
 static void errdump (const u8 * const mem, const u32 n, char *outdata)
 {
@@ -180,8 +181,6 @@ int main_unpack (u8 *indata, u32 inlen, u8 *outdata) {
 
 
 	list_size = 0x5000;
-
-	OUTPUT_LEN = 0;
 	
 	// check encoding
 	// checking first 16 bytes
@@ -225,4 +224,183 @@ int main_unpack (u8 *indata, u32 inlen, u8 *outdata) {
 };
 
 
+
+
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+
+
+
+static int dump_41_list_getbuf (const skype_list *list, u8 *membuf, int *membuf_len, int type, int id) {
+	u32				i, l;
+	
+	if (!list) { 
+		return 0; 
+	}
+	if (!list->things || !list->thing) { 
+		return 0; 
+	}
+	for (i = 0, l = 0; i < list->things; i++) {
+		
+		if (list->thing[i].type == 5) {
+			dump_41_list_getbuf((skype_list *)list->thing[i].m, membuf, membuf_len, type, id);
+			continue;
+		};
+		
+
+		// list->thing[i].n -- buf size
+
+		if ((list->thing[i].type == type) && (list->thing[i].id == id)) {
+			memcpy(membuf,(char *)list->thing[i].m, list->thing[i].n);
+			*membuf_len = list->thing[i].n;
+			//printf("list->thing[i].n: %08X\n",list->thing[i].n);
+			//printf("list->thing[i].m: %08X\n",list->thing[i].m);
+			//printf("list->thing[i].type: %08X\n",list->thing[i].type);
+			//printf("list->thing[i].id: %08X\n",list->thing[i].id);
+			return 1;
+		};
+
+	}
+
+	return 0;
+}
+
+
+
+
+int main_unpack_getbuf (u8 *indata, u32 inlen, u8 *membuf, int *membuf_len, int type, int id) {
+	u32				list_size;
+	u8				*blob_pos = indata;
+	skype_list		new_list = {&new_list, 0, 0, 0};
+	u32				packed_bytes;
+	int				ret;
+
+	// stack mess
+	int				myvar1=1;
+	int				myvar2=1;
+	int				myvar3=1;
+	int				myvar4=1;
+	int				myvar5=1;
+	int				myvar6=1;
+	int				myvar7=1;
+	int				myvar8=0;
+
+
+	packed_bytes=inlen;
+
+	list_size = 0x5000;
+
+	while ((packed_bytes>0) && (blob_pos[0]!=0x41)){
+		packed_bytes--;
+		blob_pos++;
+	};
+
+
+	ret=1;
+	while( (packed_bytes>0) && (ret==1) ){
+		
+		ret=unpack_4142((u32*)&new_list, &blob_pos, &packed_bytes, 0, 8, &list_size);
+
+		while ((packed_bytes>0) && (blob_pos[0]!=0x41)){
+			packed_bytes--;
+			blob_pos++;
+		};
+
+	};
+
+	dump_41_list_getbuf (&new_list, membuf, membuf_len, type, id);
+	
+	return 0;
+};
+
+
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+
+
+static int dump_41_list_checkblob (const skype_list *list, int type, int id) {
+	u32	i, l;
+	int ret;
+	
+	if (!list) { 
+		return 0; 
+	}
+	if (!list->things || !list->thing) { 
+		return 0; 
+	}
+	for (i = 0, l = 0; i < list->things; i++) {
+		
+		if (list->thing[i].type == 5) {
+			ret = dump_41_list_checkblob((skype_list *)list->thing[i].m, type, id);
+			if (ret==1){
+				return 1;
+			}
+
+			continue;
+		};
+
+		if ((list->thing[i].type == type) && (list->thing[i].id == id)) {
+			return 1;
+		};
+
+	}
+
+
+	return 0;
+}
+
+
+
+
+int main_unpack_checkblob (u8 *indata, u32 inlen, int type, int id) {
+	u32				list_size;
+	u8				*blob_pos = indata;
+	skype_list		new_list = {&new_list, 0, 0, 0};
+	u32				packed_bytes;
+	int				ret;
+
+	// stack mess
+	int				myvar1=1;
+	int				myvar2=1;
+	int				myvar3=1;
+	int				myvar4=1;
+	int				myvar5=1;
+	int				myvar6=1;
+	int				myvar7=1;
+	int				myvar8=0;
+
+
+	packed_bytes=inlen;
+
+	list_size = 0x5000;
+
+	while ((packed_bytes>0) && (blob_pos[0]!=0x41)){
+		packed_bytes--;
+		blob_pos++;
+	};
+
+
+	ret=1;
+	while( (packed_bytes>0) && (ret==1) ){
+		
+		ret=unpack_4142 ((u32*)&new_list, &blob_pos, &packed_bytes, 0, 8, &list_size);
+
+		while ((packed_bytes>0) && (blob_pos[0]!=0x41)){
+			packed_bytes--;
+			blob_pos++;
+		};
+
+	};
+
+	ret = dump_41_list_checkblob(&new_list, type, id);
+	
+	return ret;
+};
+
+
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
 

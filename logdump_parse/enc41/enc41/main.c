@@ -23,6 +23,9 @@ extern int main_unpack (u8 *indata, u32 inlen);
 extern int main_unpack_getdata1 (u8 *indata, u32 inlen, u8 *cred, u8 *rnd64bit, u32 *sess_id);
 extern int main_unpack_getdata2 (u8 *indata, u32 inlen, u8 *nonce);
 
+extern int main_unpack_checkblob (u8 *indata, u32 inlen, int type, int id);
+extern int main_unpack_getbuf (u8 *indata, u32 inlen, u8 *membuf, int *membuf_len, int type, int id);
+
 
 int convert_str_to_hex(char *ptr);
 int show_memory(char *mem, int len, char *text);
@@ -32,24 +35,49 @@ int process_str(char *str_buf);
 u8 bigbuf[42000];
 unsigned int bigbuf_len;
 
+int OUTPUT_LEN;
+
 
 //
 // Main
 //
 int main(char *lol, char *outbuf) {
 	int len;
+	u8 membuf[0x1000];
+	int membuf_len;
+	int ret;
 
 	//main_unpack42(test, test_len);
 	//main_unpack(bigbuf, bigbuf_len);
+	// exit(1);
+
+	OUTPUT_LEN = 0;
 
 	//init memory
-
 	memset(bigbuf,0,sizeof(bigbuf));
 	bigbuf_len = 0;
 
+	// process strings of hex bytes
 	process_str(lol);
+
+	// main blob decoding
 	len = main_unpack(bigbuf, bigbuf_len, outbuf);
 
+	// decode 04-04 blob additionally
+	ret = main_unpack_checkblob(bigbuf, bigbuf_len, 0x04, 0x04);
+	if (ret == 1){
+		main_unpack_getbuf(bigbuf, bigbuf_len, membuf, &membuf_len, 0x04, 0x04);
+		if (membuf_len<=0) {
+			OUTPUT_LEN+=sprintf(outbuf+OUTPUT_LEN,"unpack_getbuf size error\n");
+		} else {
+			OUTPUT_LEN+=sprintf(outbuf+OUTPUT_LEN,"===\n");
+			OUTPUT_LEN+=sprintf(outbuf+OUTPUT_LEN,"\n");
+			OUTPUT_LEN+=sprintf(outbuf+OUTPUT_LEN,"===\n");
+			main_unpack(membuf, membuf_len, outbuf);
+		};
+	};
+
+	len = OUTPUT_LEN;
 	return len;
 };
 
