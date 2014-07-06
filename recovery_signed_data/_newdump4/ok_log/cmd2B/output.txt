@@ -1,0 +1,247 @@
+Processing file: _input.txt
+Cert array size: 10
+Calculate UIC_CRC for all certs...
+0
+UIC_CRC = EDB0C344
+1
+UIC_CRC = 6E568FE4
+2
+UIC_CRC = 6E568FE4
+3
+UIC_CRC = 6E568FE4
+4
+UIC_CRC = 6E568FE4
+5
+UIC_CRC = 6E568FE4
+6
+UIC_CRC = 6E568FE4
+7
+UIC_CRC = 6E568FE4
+8
+UIC_CRC = 6E568FE4
+9
+UIC_CRC = 6E568FE4
+Input Buffer:
+Len: 0x000000ED
+00 A6 01 41 05 04 EF DF 03 02 F7 4E 00 00 02 00  ;    A       N    
+ 01 6D 00 02 89 AD 03 05 03 41 03 00 01 D0 D6 A6  ;  m       A      
+ FA 05 00 03 04 04 04 C2 01 41 02 00 01 2B 05 20  ;          A   +  
+ 41 05 00 0A A7 9F 94 ED 03 00 00 02 00 01 01 00  ; A               
+ 02 C4 86 C3 ED 0E 04 03 A1 01 D3 25 1D 91 A6 57  ;            %   W
+ 76 BF 9B 58 51 51 A9 F0 90 54 1F 95 2A 74 3A 07  ; v  XQQ   T  *t: 
+ 57 28 4C A8 C6 45 9F 9B BE 8B 56 76 A8 58 C5 71  ; W(L  E    Vv X q
+ 35 AF D7 15 14 4C 8D 4F 50 35 59 E8 97 76 2D 01  ; 5    L OP5Y  v- 
+ 4A 00 30 F4 04 55 4D 5D 48 5A 82 84 06 D1 13 12  ; J 0  UM]HZ      
+ D0 FE 27 69 FC 02 B7 40 14 84 2A 76 C3 A5 B0 32  ;   'i   @  *v   2
+ 03 F9 F0 C5 EA 03 CA EB 1E 91 D9 75 DB D6 15 BF  ;            u    
+ C6 B5 F3 AE FD 5A 49 D4 27 11 FC 0D 0E 89 0D 69  ;      ZI '      i
+ DF 94 95 78 22 34 8C 4C 09 B2 00 05 9E 93 90 9D  ;    x"4 L        
+ 05 00 06 CB BB 93 0B 00 07 A7 9F 94 ED 03 00 44  ;                D
+ 01 03 02 74 65 73 74 31 32 33 00 10 F7 
+{
+04-EFEF: 2 bytes
+0000: F7 4E                                           | .N               |
+
+00-00: 02 00 00 00
+00-01: 6D 00 00 00
+00-02: 89 D6 00 00
+05-03: {
+00-01: 50 AB 49 5F
+00-03: 04 00 00 00
+04-04: 194 bytes
+0000: 41 02 00 01 2B 05 20 41 05 00 0A A7 9F 94 ED 03 | A...+. A........ |
+0010: 00 00 02 00 01 01 00 02 C4 86 C3 ED 0E 04 03 A1 | ................ |
+0020: 01 D3 25 1D 91 A6 57 76 BF 9B 58 51 51 A9 F0 90 | ..%...Wv..XQQ... |
+0030: 54 1F 95 2A 74 3A 07 57 28 4C A8 C6 45 9F 9B BE | T..*t:.W(L..E... |
+0040: 8B 56 76 A8 58 C5 71 35 AF D7 15 14 4C 8D 4F 50 | .Vv.X.q5....L.OP |
+0050: 35 59 E8 97 76 2D 01 4A 00 30 F4 04 55 4D 5D 48 | 5Y..v-.J.0..UM]H |
+0060: 5A 82 84 06 D1 13 12 D0 FE 27 69 FC 02 B7 40 14 | Z........'i...@. |
+0070: 84 2A 76 C3 A5 B0 32 03 F9 F0 C5 EA 03 CA EB 1E | .*v...2......... |
+0080: 91 D9 75 DB D6 15 BF C6 B5 F3 AE FD 5A 49 D4 27 | ..u.........ZI.' |
+0090: 11 FC 0D 0E 89 0D 69 DF 94 95 78 22 34 8C 4C 09 | ......i...x"4.L. |
+00A0: B2 00 05 9E 93 90 9D 05 00 06 CB BB 93 0B 00 07 | ................ |
+00B0: A7 9F 94 ED 03 00 44 01 03 02 74 65 73 74 31 32 | ......D...test12 |
+00C0: 33 00                                           | 3.               |
+
+}
+}
+
+Looking for 04-04 blob...
+BLOB found!
+MEMBUF_LEN: 194 bytes
+MEMBUF
+Len: 0x000000C2
+41 02 00 01 2B 05 20 41 05 00 0A A7 9F 94 ED 03  ; A   +  A        
+ 00 00 02 00 01 01 00 02 C4 86 C3 ED 0E 04 03 A1  ;                 
+ 01 D3 25 1D 91 A6 57 76 BF 9B 58 51 51 A9 F0 90  ;   %   Wv  XQQ   
+ 54 1F 95 2A 74 3A 07 57 28 4C A8 C6 45 9F 9B BE  ; T  *t: W(L  E   
+ 8B 56 76 A8 58 C5 71 35 AF D7 15 14 4C 8D 4F 50  ;  Vv X q5    L OP
+ 35 59 E8 97 76 2D 01 4A 00 30 F4 04 55 4D 5D 48  ; 5Y  v- J 0  UM]H
+ 5A 82 84 06 D1 13 12 D0 FE 27 69 FC 02 B7 40 14  ; Z        'i   @ 
+ 84 2A 76 C3 A5 B0 32 03 F9 F0 C5 EA 03 CA EB 1E  ;  *v   2         
+ 91 D9 75 DB D6 15 BF C6 B5 F3 AE FD 5A 49 D4 27  ;   u         ZI '
+ 11 FC 0D 0E 89 0D 69 DF 94 95 78 22 34 8C 4C 09  ;       i   x"4 L 
+ B2 00 05 9E 93 90 9D 05 00 06 CB BB 93 0B 00 07  ;                 
+ A7 9F 94 ED 03 00 44 01 03 02 74 65 73 74 31 32  ;       D   test12
+ 33 00 
+{
+00-01: 2B 00 00 00
+05-20: {
+00-0A: A7 0F A5 3D
+00-00: 02 00 00 00
+00-01: 01 00 00 00
+00-02: 44 C3 B0 ED
+04-03: 161 bytes
+0000: D3 25 1D 91 A6 57 76 BF 9B 58 51 51 A9 F0 90 54 | .%...Wv..XQQ...T |
+0010: 1F 95 2A 74 3A 07 57 28 4C A8 C6 45 9F 9B BE 8B | ..*t:.W(L..E.... |
+0020: 56 76 A8 58 C5 71 35 AF D7 15 14 4C 8D 4F 50 35 | Vv.X.q5....L.OP5 |
+0030: 59 E8 97 76 2D 01 4A 00 30 F4 04 55 4D 5D 48 5A | Y..v-.J.0..UM]HZ |
+0040: 82 84 06 D1 13 12 D0 FE 27 69 FC 02 B7 40 14 84 | ........'i...@.. |
+0050: 2A 76 C3 A5 B0 32 03 F9 F0 C5 EA 03 CA EB 1E 91 | *v...2.......... |
+0060: D9 75 DB D6 15 BF C6 B5 F3 AE FD 5A 49 D4 27 11 | .u.........ZI.'. |
+0070: FC 0D 0E 89 0D 69 DF 94 95 78 22 34 8C 4C 09 B2 | .....i...x"4.L.. |
+0080: 00 05 9E 93 90 9D 05 00 06 CB BB 93 0B 00 07 A7 | ................ |
+0090: 9F 94 ED 03 00 44 01 03 02 74 65 73 74 31 32 33 | .....D...test123 |
+00A0: 00                                              | .                |
+
+}
+}
+
+Looking for 00-01 (remote cmd) blob...
+BLOB found!
+00-01 (CHAT CMD ID): 0x0000002B
+CHAT_COMMAND: 0x2B
+Looking for 00-02 (remote cmd) blob...
+BLOB found!
+00-02 (UIC CRC): 0xEDB0C344
+UIC_CRC: 0xEDB0C344
+Pubkey CRC: 0xEDB0C344
+Cert array size: 10
+Try to find needed keys...
+0
+Cert and pubkey found!
+Cert index: 0
+UIC_CRC: 0xEDB0C344
+Looking for 04-03 blob...
+BLOB found!
+MEMBUF_LEN: 161 bytes
+MEMBUF
+Len: 0x000000A1
+D3 25 1D 91 A6 57 76 BF 9B 58 51 51 A9 F0 90 54  ;  %   Wv  XQQ   T
+ 1F 95 2A 74 3A 07 57 28 4C A8 C6 45 9F 9B BE 8B  ;   *t: W(L  E    
+ 56 76 A8 58 C5 71 35 AF D7 15 14 4C 8D 4F 50 35  ; Vv X q5    L OP5
+ 59 E8 97 76 2D 01 4A 00 30 F4 04 55 4D 5D 48 5A  ; Y  v- J 0  UM]HZ
+ 82 84 06 D1 13 12 D0 FE 27 69 FC 02 B7 40 14 84  ;         'i   @  
+ 2A 76 C3 A5 B0 32 03 F9 F0 C5 EA 03 CA EB 1E 91  ; *v   2          
+ D9 75 DB D6 15 BF C6 B5 F3 AE FD 5A 49 D4 27 11  ;  u         ZI ' 
+ FC 0D 0E 89 0D 69 DF 94 95 78 22 34 8C 4C 09 B2  ;      i   x"4 L  
+ 00 05 9E 93 90 9D 05 00 06 CB BB 93 0B 00 07 A7  ;                 
+ 9F 94 ED 03 00 44 01 03 02 74 65 73 74 31 32 33  ;      D   test123
+ 00 
+Remote signblock len: 0x000000A1
+Unsigning first 0x100 bytes...
+unsign cred:
+Len: 0x00000100
+4B BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ; K               
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ;                 
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ;                 
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ;                 
+ BA 41 05 03 00 74 68 65 6D 61 67 69 63 66 6F 72  ;  A   themagicfor
+ 79 6F 75 00 00 03 00 04 01 80 01 D8 81 DE 8F 79  ; you            y
+ 18 DD FE 68 46 80 D7 D0 EB 0C 0A AA F3 ED AC A9  ;    hF           
+ A4 66 7B 7C FF 16 C3 5A 65 DB A9 7C A2 D6 B7 11  ;  f{|   Ze  |    
+ E1 FF A3 EE 85 DF F1 0D 47 5E 31 E7 F2 91 62 20  ;         G^1   b 
+ 07 00 6B 18 31 B7 50 C7 21 F4 CB 6E 5E 51 CE FD  ;   k 1 P !  n^Q  
+ 53 16 87 03 FB 2E C0 96 DD FD 7E 2D B4 BC C4 A4  ; S    .    ~-    
+ 2D 0E 52 9A 2B BE CC 34 DC 9C 17 EB E3 83 1F 55  ; - R +  4       U
+ 13 75 FF D0 F1 08 A7 8F FF 81 D5 C6 95 39 12 F0  ;  u           9  
+ F0 27 F5 21 FA D8 94 65 52 DE F5 00 04 D0 D5 94  ;  ' !   eR       
+ 0B 05 02 41 01 00 09 B0 8E B2 0B 8F AF 03 F8 DF  ;    A            
+ 75 54 C8 63 9A EA 08 F2 61 89 C5 C1 C7 82 54 BC  ; uT c    a     T 
+ 
+user pubkey data:
+Len: 0x00000080
+D8 81 DE 8F 79 18 DD FE 68 46 80 D7 D0 EB 0C 0A  ;     y   hF      
+ AA F3 ED AC A9 A4 66 7B 7C FF 16 C3 5A 65 DB A9  ;       f{|   Ze  
+ 7C A2 D6 B7 11 E1 FF A3 EE 85 DF F1 0D 47 5E 31  ; |            G^1
+ E7 F2 91 62 20 07 00 6B 18 31 B7 50 C7 21 F4 CB  ;    b   k 1 P !  
+ 6E 5E 51 CE FD 53 16 87 03 FB 2E C0 96 DD FD 7E  ; n^Q  S    .    ~
+ 2D B4 BC C4 A4 2D 0E 52 9A 2B BE CC 34 DC 9C 17  ; -    - R +  4   
+ EB E3 83 1F 55 13 75 FF D0 F1 08 A7 8F FF 81 D5  ;     U u         
+ C6 95 39 12 F0 F0 27 F5 21 FA D8 94 65 52 DE F5  ;   9   ' !   eR  
+ 
+remote credentials:
+{
+03-00: "themagicforyou"
+00-03: 00 00 00 00
+04-01: 128 bytes
+0000: D8 81 DE 8F 79 18 DD FE 68 46 80 D7 D0 EB 0C 0A | ....y...hF...... |
+0010: AA F3 ED AC A9 A4 66 7B 7C FF 16 C3 5A 65 DB A9 | ......f{|...Ze.. |
+0020: 7C A2 D6 B7 11 E1 FF A3 EE 85 DF F1 0D 47 5E 31 | |............G^1 |
+0030: E7 F2 91 62 20 07 00 6B 18 31 B7 50 C7 21 F4 CB | ...b ..k.1.P.!.. |
+0040: 6E 5E 51 CE FD 53 16 87 03 FB 2E C0 96 DD FD 7E | n^Q..S.........~ |
+0050: 2D B4 BC C4 A4 2D 0E 52 9A 2B BE CC 34 DC 9C 17 | -....-.R.+..4... |
+0060: EB E3 83 1F 55 13 75 FF D0 F1 08 A7 8F FF 81 D5 | ....U.u......... |
+0070: C6 95 39 12 F0 F0 27 F5 21 FA D8 94 65 52 DE F5 | ..9...'.!...eR.. |
+
+00-04: D0 2A 65 01
+05-02: {
+00-09: 30 87 6C 01
+}
+}
+
+
+Looking for 00-04 blob...
+BLOB found!
+00-04 (Expire Time): 0x01652AD0
+Cert expire time: 1404438720
+Fri Jul 04 05:52:00 2014
+
+Looking for 00-09 blob...
+BLOB found!
+00-09 (Created Time): 0x016C8730
+Cert created time: 1401846720
+Wed Jun 04 05:52:00 2014
+
+Certificate expired!
+(!!!)
+
+Unsigning 04-03 signblock 0x80 bytes...
+unsign data:
+Len: 0x00000080
+6A EE 9E 19 E3 3C 06 37 DC 18 F6 57 15 86 65 CB  ; j    < 7   W  e 
+ BF 9C C8 8A 4B 23 74 68 65 6D 61 67 69 63 66 6F  ;     K#themagicfo
+ 72 79 6F 75 2F 24 6E 6F 74 6E 6F 77 61 67 61 69  ; ryou/$notnowagai
+ 6E 70 6C 65 61 73 65 3B 37 34 30 63 38 62 37 38  ; nplease;740c8b78
+ 34 33 30 65 66 65 32 33 41 07 00 00 03 04 03 1B  ; 430efe23A       
+ 65 03 23 5A 28 22 17 37 01 C0 A8 01 87 5B 73 D5  ; e #Z(" 7     [s 
+ C7 B3 A5 9C 50 B2 41 1A C1 5B 73 64 6B 97 80 50  ;     P A  [sdk  P
+ 12 C5 57 25 98 95 08 76 69 50 67 09 37 EF 5D BC  ;   W%   viPg 7 ] 
+ 
+===
+SIGNED TEXT
+===
+recovered signed data:
+Len: 0x0000008C
+6A EE 9E 19 E3 3C 06 37 DC 18 F6 57 15 86 65 CB  ; j    < 7   W  e 
+ BF 9C C8 8A 4B 23 74 68 65 6D 61 67 69 63 66 6F  ;     K#themagicfo
+ 72 79 6F 75 2F 24 6E 6F 74 6E 6F 77 61 67 61 69  ; ryou/$notnowagai
+ 6E 70 6C 65 61 73 65 3B 37 34 30 63 38 62 37 38  ; nplease;740c8b78
+ 34 33 30 65 66 65 32 33 41 07 00 00 03 04 03 1B  ; 430efe23A       
+ 65 03 23 5A 28 22 17 37 01 C0 A8 01 87 5B 73 D5  ; e #Z(" 7     [s 
+ C7 B3 A5 9C 50 B2 41 1A C1 5B 73 00 05 9E 93 90  ;     P A  [s     
+ 9D 05 00 06 CB BB 93 0B 00 07 A7 9F 94 ED 03 00  ;                 
+ 44 01 03 02 74 65 73 74 31 32 33 00 
+{
+00-00: 03 00 00 00
+04-03: 27 bytes
+0000: 65 03 23 5A 28 22 17 37 01 C0 A8 01 87 5B 73 D5 | e.#Z(".7.....[s. |
+0010: C7 B3 A5 9C 50 B2 41 1A C1 5B 73                | ....P.A..[s      |
+
+00-05: 9E 09 A4 53
+00-06: CB DD 64 01
+00-07: A7 0F A5 3D
+00-44: 01 00 00 00
+03-02: "test123"
+}
+

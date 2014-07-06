@@ -1,0 +1,298 @@
+Processing file: inp.txt
+Input Buffer:
+Len: 0x00000204
+00 A6 01 41 05 04 EF DF 03 01 F1 00 00 02 00 01  ;    A            
+ 6D 00 02 E5 93 01 05 03 41 03 00 01 D0 D6 A6 FA  ; m       A       
+ 05 00 03 02 04 04 DA 03 41 02 00 01 2A 05 18 41  ;         A   *  A
+ 04 05 02 41 05 00 00 05 00 01 01 00 02 C4 86 C3  ;    A            
+ ED 0E 04 03 A4 01 76 4F 91 28 40 D1 AF B9 0A 75  ;       vO (@    u
+ 02 EB CB B4 69 8D 64 94 4F B1 D5 70 ED B5 34 55  ;     i d O  p  4U
+ D2 66 2C 19 3A BD BF A3 4D 86 41 A6 B3 E5 AC 27  ;  f, :   M A    '
+ 28 41 DF CA 94 86 39 B8 2F 81 07 D9 11 3D 7E B9  ; (A    9 /    =~ 
+ DC D3 C5 87 6B E1 9F 16 8B 94 FD 69 ED 93 90 E8  ;     k      i    
+ 01 00 2F 10 D6 CB BC 10 A1 88 24 91 E3 A9 3A 2B  ;   /       $   :+
+ 8D BC 4C F4 1A 1E 46 E1 14 C8 87 CC A7 DE 9D 5D  ;   L   F        ]
+ BB EA F3 E5 F4 06 81 9C 38 4A 63 C0 FE 9C 98 6B  ;         8Jc    k
+ 5B 5D F5 CE 3F 37 00 05 9B 93 90 9D 05 00 06 CB  ; []  ?7          
+ BB 93 0B 00 07 A5 9F 94 ED 03 03 0E 00 00 0F 00  ;                 
+ 00 0A EC C4 EC 83 05 06 1B 00 04 04 84 02 00 00  ;                 
+ 00 01 A6 60 57 B4 C5 2B 48 0C BA F6 0D 1F 60 CD  ;    `W  +H     ` 
+ FD 53 CA 42 40 54 47 73 03 DD 7D E9 9B 76 40 A5  ;  S B@TGs  }  v@ 
+ 34 7E E0 72 23 7D 21 4A 68 10 E3 D6 78 2D DB 3E  ; 4~ r#}!Jh   x- >
+ FB DA 71 E9 13 8D F1 DC 9B 04 03 00 8F 4F 04 A5  ;   q          O  
+ 44 BE 33 FD F1 E9 B3 C1 BB B7 DE 08 58 D1 98 24  ; D 3         X  $
+ 30 FA 50 E8 91 AE C5 D0 20 DA 8D 54 3C EB C7 8F  ; 0 P        T<   
+ 16 22 4D E8 59 CB EB ED 56 A2 CE DF D2 A6 B6 A4  ;  "M Y   V       
+ AB CA 36 00 4C 85 DB E4 44 6A 6A D7 19 7B A5 33  ;   6 L   Djj  { 3
+ F4 03 AC 0C 68 81 51 FC AF 47 8B 5A 18 78 76 04  ;     h Q  G Z xv 
+ F4 A5 D9 49 96 6A 96 0E 8B E2 AB F6 E7 F2 3D F7  ;    I j        = 
+ 7B 11 82 BD 77 85 F8 6D DF C6 BA 9F E7 F3 6C 4F  ; {   w  m      lO
+ 23 FB 76 6E E8 12 37 32 67 C2 92 C0 45 67 90 AB  ; # vn  72g   Eg  
+ 22 96 32 C2 FB 64 5E 9D 7F 52 23 94 03 DB 42 C1  ; " 2  d^ R#   B 
+ 55 83 F6 59 DF DF 6A 3E 57 27 48 92 D4 BC CA 62  ; U  Y  j>W'H    b
+ 3E 46 68 02 BF 93 9E B3 2E A9 C9 06 E7 60 C2 0B  ; >Fh     .    `  
+ 33 40 45 AD 81 37 1C 63 96 D2 45 7C 77 DF DF 41  ; 3@E  7 c  E|w  A
+ 85 61 00 06 01 00 07 EC C4 EC 83 05 00 09 CB BB  ;  a              
+ 93 0B 24 41 
+{
+04-EFEF: 1 bytes
+0000: F1                                              | .                |
+
+00-00: 02 00 00 00
+00-01: 6D 00 00 00
+00-02: E5 49 00 00
+05-03: {
+00-01: 50 AB 49 5F
+00-03: 02 00 00 00
+04-04: 474 bytes
+0000: 41 02 00 01 2A 05 18 41 04 05 02 41 05 00 00 05 | A...*..A...A.... |
+0010: 00 01 01 00 02 C4 86 C3 ED 0E 04 03 A4 01 76 4F | ..............vO |
+0020: 91 28 40 D1 AF B9 0A 75 02 EB CB B4 69 8D 64 94 | .(@....u....i.d. |
+0030: 4F B1 D5 70 ED B5 34 55 D2 66 2C 19 3A BD BF A3 | O..p..4U.f,.:... |
+0040: 4D 86 41 A6 B3 E5 AC 27 28 41 DF CA 94 86 39 B8 | M.A....'(A....9. |
+0050: 2F 81 07 D9 11 3D 7E B9 DC D3 C5 87 6B E1 9F 16 | /....=~.....k... |
+0060: 8B 94 FD 69 ED 93 90 E8 01 00 2F 10 D6 CB BC 10 | ...i....../..... |
+0070: A1 88 24 91 E3 A9 3A 2B 8D BC 4C F4 1A 1E 46 E1 | ..$...:+..L...F. |
+0080: 14 C8 87 CC A7 DE 9D 5D BB EA F3 E5 F4 06 81 9C | .......]........ |
+0090: 38 4A 63 C0 FE 9C 98 6B 5B 5D F5 CE 3F 37 00 05 | 8Jc....k[]..?7.. |
+00A0: 9B 93 90 9D 05 00 06 CB BB 93 0B 00 07 A5 9F 94 | ................ |
+00B0: ED 03 03 0E 00 00 0F 00 00 0A EC C4 EC 83 05 06 | ................ |
+00C0: 1B 00 04 04 84 02 00 00 00 01 A6 60 57 B4 C5 2B | ...........`W..+ |
+00D0: 48 0C BA F6 0D 1F 60 CD FD 53 CA 42 40 54 47 73 | H.....`..S.B@TGs |
+00E0: 03 DD 7D E9 9B 76 40 A5 34 7E E0 72 23 7D 21 4A | ..}..v@.4~.r#}!J |
+00F0: 68 10 E3 D6 78 2D DB 3E FB DA 71 E9 13 8D F1 DC | h...x-.>..q..... |
+0100: 9B 04 03 00 8F 4F 04 A5 44 BE 33 FD F1 E9 B3 C1 | .....O..D.3..... |
+0110: BB B7 DE 08 58 D1 98 24 30 FA 50 E8 91 AE C5 D0 | ....X..$0.P..... |
+0120: 20 DA 8D 54 3C EB C7 8F 16 22 4D E8 59 CB EB ED |  ..T<...."M.Y... |
+0130: 56 A2 CE DF D2 A6 B6 A4 AB CA 36 00 4C 85 DB E4 | V.........6.L... |
+0140: 44 6A 6A D7 19 7B A5 33 F4 03 AC 0C 68 81 51 FC | Djj..{.3....h.Q. |
+0150: AF 47 8B 5A 18 78 76 04 F4 A5 D9 49 96 6A 96 0E | .G.Z.xv....I.j.. |
+0160: 8B E2 AB F6 E7 F2 3D F7 7B 11 82 BD 77 85 F8 6D | ......=.{...w..m |
+0170: DF C6 BA 9F E7 F3 6C 4F 23 FB 76 6E E8 12 37 32 | ......lO#.vn..72 |
+0180: 67 C2 92 C0 45 67 90 AB 22 96 32 C2 FB 64 5E 9D | g...Eg..".2..d^. |
+0190: 7F 52 23 94 03 DB 42 C1 55 83 F6 59 DF DF 6A 3E | .R#...B.U..Y..j> |
+01A0: 57 27 48 92 D4 BC CA 62 3E 46 68 02 BF 93 9E B3 | W'H....b>Fh..... |
+01B0: 2E A9 C9 06 E7 60 C2 0B 33 40 45 AD 81 37 1C 63 | .....`..3@E..7.c |
+01C0: 96 D2 45 7C 77 DF DF 41 85 61 00 06 01 00 07 EC | ..E|w..A.a...... |
+01D0: C4 EC 83 05 00 09 CB BB 93 0B                   | ..........       |
+
+}
+}
+
+Looking for 04-04 blob...
+BLOB found!
+MEMBUF_LEN: 474 bytes
+MEMBUF
+Len: 0x000001DA
+41 02 00 01 2A 05 18 41 04 05 02 41 05 00 00 05  ; A   *  A   A    
+ 00 01 01 00 02 C4 86 C3 ED 0E 04 03 A4 01 76 4F  ;               vO
+ 91 28 40 D1 AF B9 0A 75 02 EB CB B4 69 8D 64 94  ;  (@    u    i d 
+ 4F B1 D5 70 ED B5 34 55 D2 66 2C 19 3A BD BF A3  ; O  p  4U f, :   
+ 4D 86 41 A6 B3 E5 AC 27 28 41 DF CA 94 86 39 B8  ; M A    '(A    9 
+ 2F 81 07 D9 11 3D 7E B9 DC D3 C5 87 6B E1 9F 16  ; /    =~     k   
+ 8B 94 FD 69 ED 93 90 E8 01 00 2F 10 D6 CB BC 10  ;    i      /     
+ A1 88 24 91 E3 A9 3A 2B 8D BC 4C F4 1A 1E 46 E1  ;   $   :+  L   F 
+ 14 C8 87 CC A7 DE 9D 5D BB EA F3 E5 F4 06 81 9C  ;        ]        
+ 38 4A 63 C0 FE 9C 98 6B 5B 5D F5 CE 3F 37 00 05  ; 8Jc    k[]  ?7  
+ 9B 93 90 9D 05 00 06 CB BB 93 0B 00 07 A5 9F 94  ;                 
+ ED 03 03 0E 00 00 0F 00 00 0A EC C4 EC 83 05 06  ;                 
+ 1B 00 04 04 84 02 00 00 00 01 A6 60 57 B4 C5 2B  ;            `W  +
+ 48 0C BA F6 0D 1F 60 CD FD 53 CA 42 40 54 47 73  ; H     `  S B@TGs
+ 03 DD 7D E9 9B 76 40 A5 34 7E E0 72 23 7D 21 4A  ;   }  v@ 4~ r#}!J
+ 68 10 E3 D6 78 2D DB 3E FB DA 71 E9 13 8D F1 DC  ; h   x- >  q     
+ 9B 04 03 00 8F 4F 04 A5 44 BE 33 FD F1 E9 B3 C1  ;      O  D 3     
+ BB B7 DE 08 58 D1 98 24 30 FA 50 E8 91 AE C5 D0  ;     X  $0 P     
+ 20 DA 8D 54 3C EB C7 8F 16 22 4D E8 59 CB EB ED  ;    T<    "M Y   
+ 56 A2 CE DF D2 A6 B6 A4 AB CA 36 00 4C 85 DB E4  ; V         6 L   
+ 44 6A 6A D7 19 7B A5 33 F4 03 AC 0C 68 81 51 FC  ; Djj  { 3    h Q 
+ AF 47 8B 5A 18 78 76 04 F4 A5 D9 49 96 6A 96 0E  ;  G Z xv    I j  
+ 8B E2 AB F6 E7 F2 3D F7 7B 11 82 BD 77 85 F8 6D  ;       = {   w  m
+ DF C6 BA 9F E7 F3 6C 4F 23 FB 76 6E E8 12 37 32  ;       lO# vn  72
+ 67 C2 92 C0 45 67 90 AB 22 96 32 C2 FB 64 5E 9D  ; g   Eg  " 2  d^ 
+ 7F 52 23 94 03 DB 42 C1 55 83 F6 59 DF DF 6A 3E  ; R#   B U  Y  j>
+ 57 27 48 92 D4 BC CA 62 3E 46 68 02 BF 93 9E B3  ; W'H    b>Fh     
+ 2E A9 C9 06 E7 60 C2 0B 33 40 45 AD 81 37 1C 63  ; .    `  3@E  7 c
+ 96 D2 45 7C 77 DF DF 41 85 61 00 06 01 00 07 EC  ;   E|w  A a      
+ C4 EC 83 05 00 09 CB BB 93 0B 
+{
+00-01: 2A 00 00 00
+05-18: {
+05-02: {
+00-00: 05 00 00 00
+00-01: 01 00 00 00
+00-02: 44 C3 B0 ED
+04-03: 164 bytes
+0000: 76 4F 91 28 40 D1 AF B9 0A 75 02 EB CB B4 69 8D | vO.(@....u....i. |
+0010: 64 94 4F B1 D5 70 ED B5 34 55 D2 66 2C 19 3A BD | d.O..p..4U.f,.:. |
+0020: BF A3 4D 86 41 A6 B3 E5 AC 27 28 41 DF CA 94 86 | ..M.A....'(A.... |
+0030: 39 B8 2F 81 07 D9 11 3D 7E B9 DC D3 C5 87 6B E1 | 9./....=~.....k. |
+0040: 9F 16 8B 94 FD 69 ED 93 90 E8 01 00 2F 10 D6 CB | .....i....../... |
+0050: BC 10 A1 88 24 91 E3 A9 3A 2B 8D BC 4C F4 1A 1E | ....$...:+..L... |
+0060: 46 E1 14 C8 87 CC A7 DE 9D 5D BB EA F3 E5 F4 06 | F........]...... |
+0070: 81 9C 38 4A 63 C0 FE 9C 98 6B 5B 5D F5 CE 3F 37 | ..8Jc....k[]..?7 |
+0080: 00 05 9B 93 90 9D 05 00 06 CB BB 93 0B 00 07 A5 | ................ |
+0090: 9F 94 ED 03 03 0E 00 00 0F 00 00 0A EC C4 EC 83 | ................ |
+00A0: 05 06 1B 00                                     | ....             |
+
+04-04: 260 bytes
+0000: 00 00 00 01 A6 60 57 B4 C5 2B 48 0C BA F6 0D 1F | .....`W..+H..... |
+0010: 60 CD FD 53 CA 42 40 54 47 73 03 DD 7D E9 9B 76 | `..S.B@TGs..}..v |
+0020: 40 A5 34 7E E0 72 23 7D 21 4A 68 10 E3 D6 78 2D | @.4~.r#}!Jh...x- |
+0030: DB 3E FB DA 71 E9 13 8D F1 DC 9B 04 03 00 8F 4F | .>..q..........O |
+0040: 04 A5 44 BE 33 FD F1 E9 B3 C1 BB B7 DE 08 58 D1 | ..D.3.........X. |
+0050: 98 24 30 FA 50 E8 91 AE C5 D0 20 DA 8D 54 3C EB | .$0.P..... ..T<. |
+0060: C7 8F 16 22 4D E8 59 CB EB ED 56 A2 CE DF D2 A6 | ..."M.Y...V..... |
+0070: B6 A4 AB CA 36 00 4C 85 DB E4 44 6A 6A D7 19 7B | ....6.L...Djj..{ |
+0080: A5 33 F4 03 AC 0C 68 81 51 FC AF 47 8B 5A 18 78 | .3....h.Q..G.Z.x |
+0090: 76 04 F4 A5 D9 49 96 6A 96 0E 8B E2 AB F6 E7 F2 | v....I.j........ |
+00A0: 3D F7 7B 11 82 BD 77 85 F8 6D DF C6 BA 9F E7 F3 | =.{...w..m...... |
+00B0: 6C 4F 23 FB 76 6E E8 12 37 32 67 C2 92 C0 45 67 | lO#.vn..72g...Eg |
+00C0: 90 AB 22 96 32 C2 FB 64 5E 9D 7F 52 23 94 03 DB | ..".2..d^..R#... |
+00D0: 42 C1 55 83 F6 59 DF DF 6A 3E 57 27 48 92 D4 BC | B.U..Y..j>W'H... |
+00E0: CA 62 3E 46 68 02 BF 93 9E B3 2E A9 C9 06 E7 60 | .b>Fh..........` |
+00F0: C2 0B 33 40 45 AD 81 37 1C 63 96 D2 45 7C 77 DF | ..3@E..7.c..E|w. |
+0100: DF 41 85 61                                     | .A.a             |
+
+}
+00-06: 01 00 00 00
+00-07: 6C 22 7B 50
+00-09: CB DD 64 01
+}
+}
+
+Looking for 00-01 (remote cmd) blob...
+BLOB found!
+00-01 (CHAT CMD ID): 0x0000002A
+CHAT_COMMAND: 0x0000002A
+Looking for 04-03 blob...
+BLOB found!
+MEMBUF_LEN: 164 bytes
+MEMBUF
+Len: 0x000000A4
+76 4F 91 28 40 D1 AF B9 0A 75 02 EB CB B4 69 8D  ; vO (@    u    i 
+ 64 94 4F B1 D5 70 ED B5 34 55 D2 66 2C 19 3A BD  ; d O  p  4U f, : 
+ BF A3 4D 86 41 A6 B3 E5 AC 27 28 41 DF CA 94 86  ;   M A    '(A    
+ 39 B8 2F 81 07 D9 11 3D 7E B9 DC D3 C5 87 6B E1  ; 9 /    =~     k 
+ 9F 16 8B 94 FD 69 ED 93 90 E8 01 00 2F 10 D6 CB  ;      i      /   
+ BC 10 A1 88 24 91 E3 A9 3A 2B 8D BC 4C F4 1A 1E  ;     $   :+  L   
+ 46 E1 14 C8 87 CC A7 DE 9D 5D BB EA F3 E5 F4 06  ; F        ]      
+ 81 9C 38 4A 63 C0 FE 9C 98 6B 5B 5D F5 CE 3F 37  ;   8Jc    k[]  ?7
+ 00 05 9B 93 90 9D 05 00 06 CB BB 93 0B 00 07 A5  ;                 
+ 9F 94 ED 03 03 0E 00 00 0F 00 00 0A EC C4 EC 83  ;                 
+ 05 06 1B 00 
+Remote signblock len: 0x000000A4
+Looking for 04-04 blob...
+BLOB found!
+MEMBUF_LEN: 260 bytes
+MEMBUF
+Len: 0x00000104
+00 00 00 01 A6 60 57 B4 C5 2B 48 0C BA F6 0D 1F  ;      `W  +H     
+ 60 CD FD 53 CA 42 40 54 47 73 03 DD 7D E9 9B 76  ; `  S B@TGs  }  v
+ 40 A5 34 7E E0 72 23 7D 21 4A 68 10 E3 D6 78 2D  ; @ 4~ r#}!Jh   x-
+ DB 3E FB DA 71 E9 13 8D F1 DC 9B 04 03 00 8F 4F  ;  >  q          O
+ 04 A5 44 BE 33 FD F1 E9 B3 C1 BB B7 DE 08 58 D1  ;   D 3         X 
+ 98 24 30 FA 50 E8 91 AE C5 D0 20 DA 8D 54 3C EB  ;  $0 P        T< 
+ C7 8F 16 22 4D E8 59 CB EB ED 56 A2 CE DF D2 A6  ;    "M Y   V     
+ B6 A4 AB CA 36 00 4C 85 DB E4 44 6A 6A D7 19 7B  ;     6 L   Djj  {
+ A5 33 F4 03 AC 0C 68 81 51 FC AF 47 8B 5A 18 78  ;  3    h Q  G Z x
+ 76 04 F4 A5 D9 49 96 6A 96 0E 8B E2 AB F6 E7 F2  ; v    I j        
+ 3D F7 7B 11 82 BD 77 85 F8 6D DF C6 BA 9F E7 F3  ; = {   w  m      
+ 6C 4F 23 FB 76 6E E8 12 37 32 67 C2 92 C0 45 67  ; lO# vn  72g   Eg
+ 90 AB 22 96 32 C2 FB 64 5E 9D 7F 52 23 94 03 DB  ;   " 2  d^ R#   
+ 42 C1 55 83 F6 59 DF DF 6A 3E 57 27 48 92 D4 BC  ; B U  Y  j>W'H   
+ CA 62 3E 46 68 02 BF 93 9E B3 2E A9 C9 06 E7 60  ;  b>Fh     .    `
+ C2 0B 33 40 45 AD 81 37 1C 63 96 D2 45 7C 77 DF  ;   3@E  7 c  E|w 
+ DF 41 85 61 
+Remote credentials len: 0x00000104
+Unsigning first 0x100 bytes...
+unsign cred:
+Len: 0x00000100
+4B BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ; K               
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ;                 
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ;                 
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ;                 
+ BA 41 05 03 00 74 68 65 6D 61 67 69 63 66 6F 72  ;  A   themagicfor
+ 79 6F 75 00 00 03 00 04 01 80 01 D8 81 DE 8F 79  ; you            y
+ 18 DD FE 68 46 80 D7 D0 EB 0C 0A AA F3 ED AC A9  ;    hF           
+ A4 66 7B 7C FF 16 C3 5A 65 DB A9 7C A2 D6 B7 11  ;  f{|   Ze  |    
+ E1 FF A3 EE 85 DF F1 0D 47 5E 31 E7 F2 91 62 20  ;         G^1   b 
+ 07 00 6B 18 31 B7 50 C7 21 F4 CB 6E 5E 51 CE FD  ;   k 1 P !  n^Q  
+ 53 16 87 03 FB 2E C0 96 DD FD 7E 2D B4 BC C4 A4  ; S    .    ~-    
+ 2D 0E 52 9A 2B BE CC 34 DC 9C 17 EB E3 83 1F 55  ; - R +  4       U
+ 13 75 FF D0 F1 08 A7 8F FF 81 D5 C6 95 39 12 F0  ;  u           9  
+ F0 27 F5 21 FA D8 94 65 52 DE F5 00 04 D0 D5 94  ;  ' !   eR       
+ 0B 05 02 41 01 00 09 B0 8E B2 0B 8F AF 03 F8 DF  ;    A            
+ 75 54 C8 63 9A EA 08 F2 61 89 C5 C1 C7 82 54 BC  ; uT c    a     T 
+ 
+user pubkey data:
+Len: 0x00000080
+D8 81 DE 8F 79 18 DD FE 68 46 80 D7 D0 EB 0C 0A  ;     y   hF      
+ AA F3 ED AC A9 A4 66 7B 7C FF 16 C3 5A 65 DB A9  ;       f{|   Ze  
+ 7C A2 D6 B7 11 E1 FF A3 EE 85 DF F1 0D 47 5E 31  ; |            G^1
+ E7 F2 91 62 20 07 00 6B 18 31 B7 50 C7 21 F4 CB  ;    b   k 1 P !  
+ 6E 5E 51 CE FD 53 16 87 03 FB 2E C0 96 DD FD 7E  ; n^Q  S    .    ~
+ 2D B4 BC C4 A4 2D 0E 52 9A 2B BE CC 34 DC 9C 17  ; -    - R +  4   
+ EB E3 83 1F 55 13 75 FF D0 F1 08 A7 8F FF 81 D5  ;     U u         
+ C6 95 39 12 F0 F0 27 F5 21 FA D8 94 65 52 DE F5  ;   9   ' !   eR  
+ 
+remote credentials:
+{
+03-00: "themagicforyou"
+00-03: 00 00 00 00
+04-01: 128 bytes
+0000: D8 81 DE 8F 79 18 DD FE 68 46 80 D7 D0 EB 0C 0A | ....y...hF...... |
+0010: AA F3 ED AC A9 A4 66 7B 7C FF 16 C3 5A 65 DB A9 | ......f{|...Ze.. |
+0020: 7C A2 D6 B7 11 E1 FF A3 EE 85 DF F1 0D 47 5E 31 | |............G^1 |
+0030: E7 F2 91 62 20 07 00 6B 18 31 B7 50 C7 21 F4 CB | ...b ..k.1.P.!.. |
+0040: 6E 5E 51 CE FD 53 16 87 03 FB 2E C0 96 DD FD 7E | n^Q..S.........~ |
+0050: 2D B4 BC C4 A4 2D 0E 52 9A 2B BE CC 34 DC 9C 17 | -....-.R.+..4... |
+0060: EB E3 83 1F 55 13 75 FF D0 F1 08 A7 8F FF 81 D5 | ....U.u......... |
+0070: C6 95 39 12 F0 F0 27 F5 21 FA D8 94 65 52 DE F5 | ..9...'.!...eR.. |
+
+00-04: D0 2A 65 01
+05-02: {
+00-09: 30 87 6C 01
+}
+}
+
+Unsigning 04-03 signblock 0x80 bytes...
+unsign data:
+Len: 0x00000080
+6A EE 9E 19 E3 3C 06 37 DC 18 F6 57 15 86 65 CB  ; j    < 7   W  e 
+ BF 9C C8 8A 4B 23 74 68 65 6D 61 67 69 63 66 6F  ;     K#themagicfo
+ 72 79 6F 75 2F 24 6E 6F 74 6E 6F 77 61 67 61 69  ; ryou/$notnowagai
+ 6E 70 6C 65 61 73 65 3B 37 34 30 63 38 62 37 38  ; nplease;740c8b78
+ 34 33 30 65 66 65 32 33 41 09 00 00 04 04 03 1B  ; 430efe23A       
+ 65 03 23 5A 28 22 17 37 01 C0 A8 01 87 5B 73 D5  ; e #Z(" 7     [s 
+ C7 B3 A5 9C 50 B2 41 1A C1 5B 73 E9 1F C5 BA C8  ;     P A  [s     
+ 1E 11 46 C8 31 11 85 19 62 5C D0 8B 14 30 7A BC  ;   F 1   b\   0z 
+ 
+===
+SIGNED TEXT
+===
+recovered signed data:
+Len: 0x0000008F
+6A EE 9E 19 E3 3C 06 37 DC 18 F6 57 15 86 65 CB  ; j    < 7   W  e 
+ BF 9C C8 8A 4B 23 74 68 65 6D 61 67 69 63 66 6F  ;     K#themagicfo
+ 72 79 6F 75 2F 24 6E 6F 74 6E 6F 77 61 67 61 69  ; ryou/$notnowagai
+ 6E 70 6C 65 61 73 65 3B 37 34 30 63 38 62 37 38  ; nplease;740c8b78
+ 34 33 30 65 66 65 32 33 41 09 00 00 04 04 03 1B  ; 430efe23A       
+ 65 03 23 5A 28 22 17 37 01 C0 A8 01 87 5B 73 D5  ; e #Z(" 7     [s 
+ C7 B3 A5 9C 50 B2 41 1A C1 5B 73 00 05 9B 93 90  ;     P A  [s     
+ 9D 05 00 06 CB BB 93 0B 00 07 A5 9F 94 ED 03 03  ;                 
+ 0E 00 00 0F 00 00 0A EC C4 EC 83 05 06 1B 00 
+{
+00-00: 04 00 00 00
+04-03: 27 bytes
+0000: 65 03 23 5A 28 22 17 37 01 C0 A8 01 87 5B 73 D5 | e.#Z(".7.....[s. |
+0010: C7 B3 A5 9C 50 B2 41 1A C1 5B 73                | ....P.A..[s      |
+
+00-05: 9B 09 A4 53
+00-06: CB DD 64 01
+00-07: A5 0F A5 3D
+03-0E: ""
+00-0F: 00 00 00 00
+00-0A: 6C 22 7B 50
+06-1B: 
+}
+

@@ -1,0 +1,70 @@
+Len: 0x00000104
+ 00 00 00 01 A6 60 57 B4 C5 2B 48 0C BA F6 0D 1F  ;      `W  +H     
+ 60 CD FD 53 CA 42 40 54 47 73 03 DD 7D E9 9B 76  ; `  S B@TGs  }  v
+ 40 A5 34 7E E0 72 23 7D 21 4A 68 10 E3 D6 78 2D  ; @ 4~ r#}!Jh   x-
+ DB 3E FB DA 71 E9 13 8D F1 DC 9B 04 03 00 8F 4F  ;  >  q          O
+ 04 A5 44 BE 33 FD F1 E9 B3 C1 BB B7 DE 08 58 D1  ;   D 3         X 
+ 98 24 30 FA 50 E8 91 AE C5 D0 20 DA 8D 54 3C EB  ;  $0 P        T< 
+ C7 8F 16 22 4D E8 59 CB EB ED 56 A2 CE DF D2 A6  ;    "M Y   V     
+ B6 A4 AB CA 36 00 4C 85 DB E4 44 6A 6A D7 19 7B  ;     6 L   Djj  {
+ A5 33 F4 03 AC 0C 68 81 51 FC AF 47 8B 5A 18 78  ;  3    h Q  G Z x
+ 76 04 F4 A5 D9 49 96 6A 96 0E 8B E2 AB F6 E7 F2  ; v    I j        
+ 3D F7 7B 11 82 BD 77 85 F8 6D DF C6 BA 9F E7 F3  ; = {   w  m      
+ 6C 4F 23 FB 76 6E E8 12 37 32 67 C2 92 C0 45 67  ; lO# vn  72g   Eg
+ 90 AB 22 96 32 C2 FB 64 5E 9D 7F 52 23 94 03 DB  ;   " 2  d^ R#   
+ 42 C1 55 83 F6 59 DF DF 6A 3E 57 27 48 92 D4 BC  ; B U  Y  j>W'H   
+ CA 62 3E 46 68 02 BF 93 9E B3 2E A9 C9 06 E7 60  ;  b>Fh     .    `
+ C2 0B 33 40 45 AD 81 37 1C 63 96 D2 45 7C 77 DF  ;   3@E  7 c  E|w 
+ DF 41 85 61 
+Remote credentials len: 0x00000104
+Unsigning first 0x100 bytes...
+unsign cred:
+Len: 0x00000100
+4B BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ; K               
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ;                 
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ;                 
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ;                 
+ BA 41 05 03 00 74 68 65 6D 61 67 69 63 66 6F 72  ;  A   themagicfor
+ 79 6F 75 00 00 03 00 04 01 80 01 D8 81 DE 8F 79  ; you            y
+ 18 DD FE 68 46 80 D7 D0 EB 0C 0A AA F3 ED AC A9  ;    hF           
+ A4 66 7B 7C FF 16 C3 5A 65 DB A9 7C A2 D6 B7 11  ;  f{|   Ze  |    
+ E1 FF A3 EE 85 DF F1 0D 47 5E 31 E7 F2 91 62 20  ;         G^1   b 
+ 07 00 6B 18 31 B7 50 C7 21 F4 CB 6E 5E 51 CE FD  ;   k 1 P !  n^Q  
+ 53 16 87 03 FB 2E C0 96 DD FD 7E 2D B4 BC C4 A4  ; S    .    ~-    
+ 2D 0E 52 9A 2B BE CC 34 DC 9C 17 EB E3 83 1F 55  ; - R +  4       U
+ 13 75 FF D0 F1 08 A7 8F FF 81 D5 C6 95 39 12 F0  ;  u           9  
+ F0 27 F5 21 FA D8 94 65 52 DE F5 00 04 D0 D5 94  ;  ' !   eR       
+ 0B 05 02 41 01 00 09 B0 8E B2 0B 8F AF 03 F8 DF  ;    A            
+ 75 54 C8 63 9A EA 08 F2 61 89 C5 C1 C7 82 54 BC  ; uT c    a     T 
+ 
+user pubkey data:
+Len: 0x00000080
+D8 81 DE 8F 79 18 DD FE 68 46 80 D7 D0 EB 0C 0A  ;     y   hF      
+ AA F3 ED AC A9 A4 66 7B 7C FF 16 C3 5A 65 DB A9  ;       f{|   Ze  
+ 7C A2 D6 B7 11 E1 FF A3 EE 85 DF F1 0D 47 5E 31  ; |            G^1
+ E7 F2 91 62 20 07 00 6B 18 31 B7 50 C7 21 F4 CB  ;    b   k 1 P !  
+ 6E 5E 51 CE FD 53 16 87 03 FB 2E C0 96 DD FD 7E  ; n^Q  S    .    ~
+ 2D B4 BC C4 A4 2D 0E 52 9A 2B BE CC 34 DC 9C 17  ; -    - R +  4   
+ EB E3 83 1F 55 13 75 FF D0 F1 08 A7 8F FF 81 D5  ;     U u         
+ C6 95 39 12 F0 F0 27 F5 21 FA D8 94 65 52 DE F5  ;   9   ' !   eR  
+ 
+remote credentials:
+{
+03-00: "themagicforyou"
+00-03: 00 00 00 00
+04-01: 128 bytes
+0000: D8 81 DE 8F 79 18 DD FE 68 46 80 D7 D0 EB 0C 0A | ....y...hF...... |
+0010: AA F3 ED AC A9 A4 66 7B 7C FF 16 C3 5A 65 DB A9 | ......f{|...Ze.. |
+0020: 7C A2 D6 B7 11 E1 FF A3 EE 85 DF F1 0D 47 5E 31 | |............G^1 |
+0030: E7 F2 91 62 20 07 00 6B 18 31 B7 50 C7 21 F4 CB | ...b ..k.1.P.!.. |
+0040: 6E 5E 51 CE FD 53 16 87 03 FB 2E C0 96 DD FD 7E | n^Q..S.........~ |
+0050: 2D B4 BC C4 A4 2D 0E 52 9A 2B BE CC 34 DC 9C 17 | -....-.R.+..4... |
+0060: EB E3 83 1F 55 13 75 FF D0 F1 08 A7 8F FF 81 D5 | ....U.u......... |
+0070: C6 95 39 12 F0 F0 27 F5 21 FA D8 94 65 52 DE F5 | ..9...'.!...eR.. |
+
+00-04: D0 2A 65 01
+05-02: {
+00-09: 30 87 6C 01
+}
+}
+

@@ -1,0 +1,91 @@
+Unsigning first 0x100 bytes...
+unsign cred:
+Len: 0x00000100
+4B BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ; K               
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ;                 
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ;                 
+ BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB BB  ;                 
+ BA 41 05 03 00 74 68 65 6D 61 67 69 63 66 6F 72  ;  A   themagicfor
+ 79 6F 75 00 00 03 00 04 01 80 01 D8 81 DE 8F 79  ; you            y
+ 18 DD FE 68 46 80 D7 D0 EB 0C 0A AA F3 ED AC A9  ;    hF           
+ A4 66 7B 7C FF 16 C3 5A 65 DB A9 7C A2 D6 B7 11  ;  f{|   Ze  |    
+ E1 FF A3 EE 85 DF F1 0D 47 5E 31 E7 F2 91 62 20  ;         G^1   b 
+ 07 00 6B 18 31 B7 50 C7 21 F4 CB 6E 5E 51 CE FD  ;   k 1 P !  n^Q  
+ 53 16 87 03 FB 2E C0 96 DD FD 7E 2D B4 BC C4 A4  ; S    .    ~-    
+ 2D 0E 52 9A 2B BE CC 34 DC 9C 17 EB E3 83 1F 55  ; - R +  4       U
+ 13 75 FF D0 F1 08 A7 8F FF 81 D5 C6 95 39 12 F0  ;  u           9  
+ F0 27 F5 21 FA D8 94 65 52 DE F5 00 04 D0 D5 94  ;  ' !   eR       
+ 0B 05 02 41 01 00 09 B0 8E B2 0B 8F AF 03 F8 DF  ;    A            
+ 75 54 C8 63 9A EA 08 F2 61 89 C5 C1 C7 82 54 BC  ; uT c    a     T 
+ 
+user pubkey data:
+Len: 0x00000080
+D8 81 DE 8F 79 18 DD FE 68 46 80 D7 D0 EB 0C 0A  ;     y   hF      
+ AA F3 ED AC A9 A4 66 7B 7C FF 16 C3 5A 65 DB A9  ;       f{|   Ze  
+ 7C A2 D6 B7 11 E1 FF A3 EE 85 DF F1 0D 47 5E 31  ; |            G^1
+ E7 F2 91 62 20 07 00 6B 18 31 B7 50 C7 21 F4 CB  ;    b   k 1 P !  
+ 6E 5E 51 CE FD 53 16 87 03 FB 2E C0 96 DD FD 7E  ; n^Q  S    .    ~
+ 2D B4 BC C4 A4 2D 0E 52 9A 2B BE CC 34 DC 9C 17  ; -    - R +  4   
+ EB E3 83 1F 55 13 75 FF D0 F1 08 A7 8F FF 81 D5  ;     U u         
+ C6 95 39 12 F0 F0 27 F5 21 FA D8 94 65 52 DE F5  ;   9   ' !   eR  
+ 
+{
+03-00: "themagicforyou"
+00-03: 00 00 00 00
+04-01: 128 bytes
+0000: D8 81 DE 8F 79 18 DD FE 68 46 80 D7 D0 EB 0C 0A | ....y...hF...... |
+0010: AA F3 ED AC A9 A4 66 7B 7C FF 16 C3 5A 65 DB A9 | ......f{|...Ze.. |
+0020: 7C A2 D6 B7 11 E1 FF A3 EE 85 DF F1 0D 47 5E 31 | |............G^1 |
+0030: E7 F2 91 62 20 07 00 6B 18 31 B7 50 C7 21 F4 CB | ...b ..k.1.P.!.. |
+0040: 6E 5E 51 CE FD 53 16 87 03 FB 2E C0 96 DD FD 7E | n^Q..S.........~ |
+0050: 2D B4 BC C4 A4 2D 0E 52 9A 2B BE CC 34 DC 9C 17 | -....-.R.+..4... |
+0060: EB E3 83 1F 55 13 75 FF D0 F1 08 A7 8F FF 81 D5 | ....U.u......... |
+0070: C6 95 39 12 F0 F0 27 F5 21 FA D8 94 65 52 DE F5 | ..9...'.!...eR.. |
+
+00-04: D0 2A 65 01
+05-02: {
+00-09: 30 87 6C 01
+}
+}
+
+Unsigning second 0x80 bytes...
+unsign data:
+Len: 0x00000080
+6A EE 9E 19 E3 3C 06 37 DC 18 F6 57 15 86 65 CB  ; j    < 7   W  e 
+ BF 9C C8 8A 4B 23 74 68 65 6D 61 67 69 63 66 6F  ;     K#themagicfo
+ 72 79 6F 75 2F 24 6E 6F 74 6E 6F 77 61 67 61 69  ; ryou/$notnowagai
+ 6E 70 6C 65 61 73 65 3B 37 34 30 63 38 62 37 38  ; nplease;740c8b78
+ 34 33 30 65 66 65 32 33 41 09 00 00 01 04 03 1B  ; 430efe23A       
+ 65 03 23 5A 28 22 17 37 01 C0 A8 01 87 5B 73 D5  ; e #Z(" 7     [s 
+ C7 B3 A5 9C 50 B2 41 1A C1 5B 73 98 A9 FB 77 C4  ;     P A  [s   w 
+ 64 86 8A 11 AC FF 0D DC 4F F8 CA 0E 92 41 97 BC  ; d       O    A  
+ 
+OK
+
+===
+===
+Input Buffer:
+Len: 0x00000058
+41 09 00 00 01 04 03 1B 65 03 23 5A 28 22 17 37 
+ 01 C0 A8 01 87 5B 73 D5 C7 B3 A5 9C 50 B2 41 1A 
+ C1 5B 73 00 05 9B 93 90 9D 05 00 06 CB BB 93 0B 
+ 00 07 A6 9F 94 ED 03 03 01 6E 6F 74 6E 6F 77 61 
+ 67 61 69 6E 70 6C 65 61 73 65 00 00 0A A2 FA A4 
+ E7 01 06 1B 00 00 0B 01 
+===
+{
+00-00: 01 00 00 00
+04-03: 27 bytes
+0000: 65 03 23 5A 28 22 17 37 01 C0 A8 01 87 5B 73 D5 | e.#Z(".7.....[s. |
+0010: C7 B3 A5 9C 50 B2 41 1A C1 5B 73                | ....P.A..[s      |
+
+00-05: 9B 09 A4 53
+00-06: CB DD 64 01
+00-07: A6 0F A5 3D
+03-01: "notnowagainplease"
+00-0A: 22 3D E9 1C
+06-1B: 
+00-0B: 01 00 00 00
+}
+
+===
