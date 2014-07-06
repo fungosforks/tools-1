@@ -11,5 +11,11 @@ data_decrypt   --  unsign newblk block in skype msg packet (restore original 41 
 logdump_parse  --  parse skype logs to readeable format
 
 skydumpcred3   --  for dumping skype credentials.
-                   extract and decrypt public/private keys and cert (signed public key by skype network) to use in multysend or in my crypto tools
+                   extract and decrypt public/private keys and cert 
+                   (signed public key by skype network) to use in multysend 
+                   or in my crypto tools
+
+recovery_signed_data  --  for restore signed text (in old newblk blocks)               
+                          in signed packets (for chatinit, headersign and msgsign data)
+                          (i.e. improved cert_decrypt/data_decrypt in one project)
 
