@@ -1,0 +1,7 @@
+
+:: for ms vc ::
+
+tools -> options -> directory -> "library files"
+
+$(SolutionDir)lib;
+

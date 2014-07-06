@@ -1,0 +1,43 @@
+
+input data from pkt:
+Len: 0x00000080
+69 3B 16 E3 AA AE C8 A7 02 E4 C3 B5 00 89 FB 9D  ; i;              
+ 2E 90 EB 55 DC 50 D8 0D C3 BC 0E 80 2D D6 66 0C  ; .  U P      - f 
+ 4B 69 10 19 20 27 8E CC DA C9 BE 1A B3 DB 13 60  ; Ki   '         `
+ C1 30 91 C6 25 50 C0 6B BB C3 4F 68 5D EF A6 39  ;  0  %P k  Oh]  9
+ 16 58 6C E6 1B 94 F2 76 BF 93 04 F5 AD 70 0B 36  ;  Xl    v     p 6
+ 35 65 18 3A 03 39 52 C3 2F BE B2 AD 63 08 AC CD  ; 5e : 9R /   c   
+ 89 F4 F1 4C A6 B1 E0 59 9B BD 3B D1 24 A5 AF D0  ;    L   Y  ; $   
+ 6D 2D D5 A2 5D B2 6B D9 A7 4F B3 FF 78 02 D4 10  ; m-  ] k  O  x   
+ 
+Check signature via pub key ...
+all data:
+Len: 0x000000A7
+6A BB FA 8C CA E3 43 00 A4 33 6B 2A 7E DA 0B D4  ; j     C  3k*~   
+ 90 01 96 3C FB 23 6E 6F 74 6E 6F 77 61 67 61 69  ;    < #notnowagai
+ 6E 70 6C 65 61 73 65 2F 24 74 68 65 6D 61 67 69  ; nplease/$themagi
+ 63 66 6F 72 79 6F 75 3B 61 30 31 36 64 66 39 63  ; cforyou;a016df9c
+ 35 37 65 65 31 65 64 37 41 06 00 00 03 04 03 1A  ; 57ee1ed7A       
+ 65 03 23 5A 28 22 17 37 01 C0 A8 01 87 5B 73 9D  ; e #Z(" 7     [s 
+ 37 EB 97 9C 4D B2 41 00 E8 5B 00 94 67 E2 36 A2  ; 7   M A  [  g 6 
+ 55 35 E7 5B E3 15 81 09 FE 17 B2 D8 3B 34 16 BC  ; U5 [        ;4  
+ 05 E8 86 D2 9C 05 00 06 C7 E5 EB 09 00 07 D1 FF  ;                 
+ E3 EC 03 03 02 54 68 69 73 20 69 73 20 4C 4F 4C  ;      This is LOL
+ 20 6D 73 67 2E 00 00 
+OK
+
+
+===
+{
+00-00: 03 00 00 00
+04-03: 26 bytes
+0000: 65 03 23 5A 28 22 17 37 01 C0 A8 01 87 5B 73 9D | e.#Z(".7.....[s. |
+0010: 37 EB 97 9C 4D B2 41 00 E8 5B                   | 7...M.A..[       |
+
+00-05: 68 83 94 53
+00-06: C7 F2 3A 01
+00-07: D1 FF 98 3D
+03-02: "This is LOL msg."
+}
+===
+

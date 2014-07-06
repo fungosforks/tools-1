@@ -1,0 +1,70 @@
+input data from pkt:
+Len: 0x00000080
+79 8B 83 FC AE 2D 3A 32 D1 E0 37 17 7C E0 E2 57  ; y    -:2  7 |  W
+ 6D 9D E1 49 35 50 3C 19 31 98 51 1C FF F5 73 A8  ; m  I5P< 1 Q   s 
+ 71 74 45 D3 B9 44 BE 5D 3A B2 91 0D 1D E8 9D B4  ; qtE  D ]:       
+ 5B 69 CA B4 AC 60 F7 CC 1B E4 37 01 A1 76 8E 33  ; [i   `    7  v 3
+ 03 2C 65 CF 47 EE EF FB C1 3D CB C8 8C BE 5F A8  ;  ,e G    =    _ 
+ D9 54 17 6A 31 86 14 27 C8 C1 C0 28 99 3A 65 BE  ;  T j1  '   ( :e 
+ D6 CD 09 FE D9 36 61 67 22 70 68 0A 11 ED CD 0F  ;      6ag"ph     
+ 9D 88 A1 BC B6 9C 90 61 FB 18 2F 24 D0 04 22 E4  ;        a  /$  " 
+ 
+Check signature using user pub key...
+All data together:
+Len: 0x000000A2
+6A BB FA 8C CA E3 43 00 A4 33 6B 2A 7E DA 0B D4  ; j     C  3k*~   
+ 90 01 96 3C FB 23 6E 6F 74 6E 6F 77 61 67 61 69  ;    < #notnowagai
+ 6E 70 6C 65 61 73 65 2F 24 74 68 65 6D 61 67 69  ; nplease/$themagi
+ 63 66 6F 72 79 6F 75 3B 61 30 31 36 64 66 39 63  ; cforyou;a016df9c
+ 35 37 65 65 31 65 64 37 41 07 00 00 03 04 03 1B  ; 57ee1ed7A       
+ 65 03 23 5A 28 22 17 37 00 B2 41 29 47 5B 73 D5  ; e #Z(" 7  A)G[s 
+ C7 B3 94 9C 41 C0 A8 01 87 5B 73 4D 7C CC 26 EE  ;     A    [sM| & 
+ 9B D0 1C 63 9A 92 FF 51 36 D0 A0 9C BC CD E8 BC  ;    c   Q6       
+ 00 05 B8 FD CF 9C 05 00 06 DB B2 92 0B 00 07 82  ;                 
+ 85 92 C9 02 00 44 01 03 02 74 74 74 65 73 74 31  ;      D   tttest1
+ 00 00 
+All data together with cutted sha-1 hash:
+Len: 0x000000A2
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ;                 
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ;                 
+ 00 00 00 00 00 00 00 00 00 00 23 6E 6F 74 6E 6F  ;           #notno
+ 77 61 67 61 69 6E 70 6C 65 61 73 65 2F 24 74 68  ; wagainplease/$th
+ 65 6D 61 67 69 63 66 6F 72 79 6F 75 3B 61 30 31  ; emagicforyou;a01
+ 36 64 66 39 63 35 37 65 65 31 65 64 37 41 07 00  ; 6df9c57ee1ed7A  
+ 00 03 04 03 1B 65 03 23 5A 28 22 17 37 00 B2 41  ;      e #Z(" 7  A
+ 29 47 5B 73 D5 C7 B3 94 9C 41 C0 A8 01 87 5B 73  ; )G[s     A    [s
+ 00 05 B8 FD CF 9C 05 00 06 DB B2 92 0B 00 07 82  ;                 
+ 85 92 C9 02 00 44 01 03 02 74 74 74 65 73 74 31  ;      D   tttest1
+ 00 00 
+{
+00-00: 03 00 00 00
+04-03: 27 bytes
+0000: 65 03 23 5A 28 22 17 37 00 B2 41 29 47 5B 73 D5 | e.#Z(".7..A)G[s. |
+0010: C7 B3 94 9C 41 C0 A8 01 87 5B 73                | ....A....[s      |
+
+00-05: B8 FE 93 53
+00-06: 5B 99 64 01
+00-07: 82 82 24 29
+00-44: 01 00 00 00
+03-02: "tttest1"
+}
+
+OK
+
+
+===
+00-06: 5B 99 64 01
+^^^
+   unix timestamp in _minutes_
+
+0x0164995B * 60 = unix timestamp
+===
+
+00-07: 82 82 24 29
+^^^^ header id
+===
+
+00-05: B8 FE 93 53
+???
+===
+
